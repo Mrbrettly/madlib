@@ -1,0 +1,39 @@
+adj = input("Adjective: ")
+baseball_team = input("Baseball Team: ")
+verb1 = input("Verb: ")
+verb2 = input("Verb: ")
+famous_person = input("Famous Person: ")
+video_game = input("Video Game: ")
+item = input("Item: ")
+baseball_player = input("Baseball Player: ")
+clothing_company = input("Clothing Company: ")
+injury = input("Injury: ")
+body_part = input("Body Part: ")
+baseball_team2 = input("Baseball Team: ")
+baseball_player2 = input("Baseball Player: ")
+female_celebrity = input("Female Celebrity: ")
+animal = input("Animal: ")
+three_word_slogan = input("Three word slogan: ")
+
+madlib = (f" The {baseball_team} organization is a complete joke of a professional team."
+          f" Their {adj} field is the cause for all pitcher injuries."
+          f" The only thing the {baseball_team} do well is play {video_game} all night."
+          f" They can't even {verb1} the {item} across the diamond."
+          f" The {baseball_team} best player is {baseball_player}."
+          f" Everyone always tells {baseball_player} that they look like {famous_person}."
+          f" Good thing their uniforms are made by {clothing_company} instead of Fanatics."
+          f" Fanatics made uniforms that kept on ripping and exposing the player's {body_part}."
+          f" The best pitcher on the team Joe Montania had a horrible {injury}."
+          f" Their manager got finned for {verb2} a chicken in the middle of the diamond."
+          f" The {baseball_team} and {baseball_team2} are heated rivals."
+          f" Mainly because {baseball_player} found out they were related to {baseball_player2}."
+          f" Both of these players hooked up with the same girl. They both said that she looked like {female_celebrity}"
+          f" Realistically she looked like a {animal}."
+          f" {baseball_player} and {baseball_player2} both decided the only way to choose who gets the girl"
+          f" would be to fight each other to death. {baseball_player2} ended up victorious"
+          f" and let out their catchphrase, {three_word_slogan}." )
+
+
+print(madlib)
+
+
